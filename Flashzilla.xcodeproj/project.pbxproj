@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE3901242C6E687B0091674D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3901232C6E687B0091674D /* Card.swift */; };
 		EE3901262C6E691B0091674D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3901252C6E691B0091674D /* CardView.swift */; };
+		EE3901282C74F6F10091674D /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3901272C74F6F10091674D /* EditCards.swift */; };
 		EEE61B832C6BBE89006B4AA6 /* FlashzillaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE61B822C6BBE89006B4AA6 /* FlashzillaApp.swift */; };
 		EEE61B852C6BBE89006B4AA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE61B842C6BBE89006B4AA6 /* ContentView.swift */; };
 		EEE61B872C6BBE8B006B4AA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE61B862C6BBE8B006B4AA6 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		EE3901232C6E687B0091674D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		EE3901252C6E691B0091674D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EE3901272C74F6F10091674D /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		EEE61B7F2C6BBE89006B4AA6 /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE61B822C6BBE89006B4AA6 /* FlashzillaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashzillaApp.swift; sourceTree = "<group>"; };
 		EEE61B842C6BBE89006B4AA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				EEE61B862C6BBE8B006B4AA6 /* Assets.xcassets */,
 				EEE61B882C6BBE8B006B4AA6 /* Preview Content */,
 				EE3901232C6E687B0091674D /* Card.swift */,
+				EE3901272C74F6F10091674D /* EditCards.swift */,
 				EE3901252C6E691B0091674D /* CardView.swift */,
 			);
 			path = Flashzilla;
@@ -146,6 +149,7 @@
 				EEE61B852C6BBE89006B4AA6 /* ContentView.swift in Sources */,
 				EE3901242C6E687B0091674D /* Card.swift in Sources */,
 				EE3901262C6E691B0091674D /* CardView.swift in Sources */,
+				EE3901282C74F6F10091674D /* EditCards.swift in Sources */,
 				EEE61B832C6BBE89006B4AA6 /* FlashzillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
