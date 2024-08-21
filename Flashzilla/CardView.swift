@@ -7,6 +7,18 @@
 
 import SwiftUI
 
+extension Shape {
+    func fill(using offset: CGSize) -> some View {
+        if offset.width == 0 {
+            self.fill(.white)
+        } else if offset.width < 0 {
+            self.fill(.red)
+        } else {
+            self.fill(.green)
+        }
+    }
+}
+
 struct CardView: View {
     let card: Card
     var removal: (() -> Void)? = nil
@@ -29,7 +41,7 @@ struct CardView: View {
                     accessibilityDifferentiateWithoutColor
                         ? nil
                         : RoundedRectangle(cornerRadius: 25)
-                            .fill(offset.width > 0 ? .green : .red)
+                        .fill(using: offset)
                 )
                 .shadow(radius: 10)
 
